@@ -1,0 +1,38 @@
+# started on Wed Nov  9 15:12:29 2022
+
+
+ Performance counter stats for 'system wide' (10 runs):
+
+            984.63 Joules power/energy-pkg/                                             ( +-  2.09% )
+     6,922,638,677        all_data_cache_accesses:k                                     ( +-  1.87% )  (83.32%)
+           298,330        context-switches:k                                            ( +-  3.84% )
+       525,553,938        cache-misses:k            #   42.846 % of all cache refs      ( +-  0.88% )  (83.34%)
+     1,184,565,397        cache-references:k                                            ( +-  1.44% )  (83.35%)
+    50,689,690,507        cpu-cycles:k                                                  ( +-  2.17% )  (83.32%)
+    12,602,223,600        instructions:k            #    0.23  insn per cycle           ( +-  1.99% )  (83.35%)
+                 0        major-faults:k                                              
+               149        minor-faults:k                                                ( +-158.61% )
+               149        page-faults:k                                                 ( +-159.60% )
+           128,896        all_tlbs_flushed:k                                            ( +-  4.44% )  (83.32%)
+
+            43.355 +- 0.440 seconds time elapsed  ( +-  1.01% )
+
+# started on Wed Nov  9 15:19:43 2022
+
+
+ Performance counter stats for 'system wide' (10 runs):
+
+          1,049.65 Joules power/energy-pkg/                                             ( +-  1.84% )
+     7,280,697,845        all_data_cache_accesses:k                                     ( +-  0.91% )  (83.31%)
+           330,802        context-switches:k                                            ( +-  1.64% )
+       543,813,348        cache-misses:k            #   44.363 % of all cache refs      ( +-  1.00% )  (83.34%)
+     1,237,119,950        cache-references:k                                            ( +-  1.04% )  (83.30%)
+    52,866,776,878        cpu-cycles:k                                                  ( +-  0.67% )  (83.36%)
+    13,320,576,936        instructions:k            #    0.25  insn per cycle           ( +-  0.95% )  (83.32%)
+                 0        major-faults:k                                              
+               139        minor-faults:k                                                ( +-206.87% )
+               139        page-faults:k                                                 ( +-208.29% )
+           141,324        all_tlbs_flushed:k                                            ( +-  3.35% )  (83.36%)
+
+            43.855 +- 0.422 seconds time elapsed  ( +-  0.96% )
+
